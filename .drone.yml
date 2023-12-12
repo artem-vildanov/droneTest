@@ -1,0 +1,8 @@
+kind: pipeline
+name: test-pipeline
+
+steps:
+  - name: hello-drone
+    image: alpine
+    commands:
+      - echo "Hello, Drone!"
